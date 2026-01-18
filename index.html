@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot for Safe Drinking Water</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💧 AI Chatbot for Safe Drinking Water Awareness</h1>
+
+<div id="chatbox">
+
+    <select id="mode">
+        <option value="basic">Basic Awareness Mode</option>
+        <option value="ai">Advanced AI (RAG Concept)</option>
+    </select>
+
+    <!-- Predefined Questions -->
+    <div id="options">
+        <button onclick="quickAsk('Can cloth filtration clean water?')">Can cloth filtration clean water?</button>
+        <button onclick="quickAsk('Is stored water safe to drink?')">Is stored water safe to drink?</button>
+        <button onclick="quickAsk('What diseases are caused by dirty water?')">Diseases from dirty water</button>
+        <button onclick="quickAsk('Why is clean drinking water important?')">Importance of clean water</button>
+
+        <button onclick="quickAsk('How does AI detect water pollution?')">AI & water pollution</button>
+        <button onclick="quickAsk('Can AI prevent water-borne diseases?')">AI & disease prevention</button>
+        <button onclick="quickAsk('How do smart sensors monitor water quality?')">Smart sensors</button>
+        <button onclick="quickAsk('How does clean water support sustainability?')">Water & sustainability</button>
+    </div>
+
+    <div id="messages"></div>
+
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Ask any water-related question...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

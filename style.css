@@ -1,0 +1,76 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #023e8a;
+}
+
+#chatbox {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#options {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#options button {
+    background: linear-gradient(135deg, #0077b6, #0096c7);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#options button:hover {
+    background: linear-gradient(135deg, #023e8a, #03045e);
+}
+
+#messages {
+    height: 230px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input-area {
+    display: flex;
+    gap: 6px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 14px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
